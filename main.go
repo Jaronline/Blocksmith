@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/jaronline/blocksmith/cli"
+	"github.com/jaronline/blocksmith/internal/cli"
 )
 
 func main() {
