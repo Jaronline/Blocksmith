@@ -1,0 +1,22 @@
+module:cmd/blocksmith:
+  - changed-files:
+      - any-glob-to-any-file:
+          - cmd/blocksmith/*
+          - cmd/blocksmith/**/*
+          - internal/*
+          - internal/**/*
+module:ui/button:
+  - changed-files:
+      - any-glob-to-any-file:
+          - ui/button/*
+          - ui/button/**/*
+module:ui/router:
+  - changed-files:
+      - any-glob-to-any-file:
+          - ui/router/*
+          - ui/router/**/*
+module:ui/zone/button:
+  - changed-files:
+      - any-glob-to-any-file:
+          - ui/zone/button/*
+          - ui/zone/button/**/*
