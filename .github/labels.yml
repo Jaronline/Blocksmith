@@ -1,2 +1,10 @@
 extends: "Jaronline/.github:.github/labels.yml"
-labels: []
+labels:
+  - name: "module:cmd/blocksmith"
+    color: "5319e7"
+  - name: "module:ui/button"
+    color: "5319e7"
+  - name: "module:ui/router"
+    color: "5319e7"
+  - name: "module:ui/zone/button"
+    color: "5319e7"
