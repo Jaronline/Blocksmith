@@ -1,0 +1,12 @@
+module:cmd/blocksmith:
+  - "### Which module is this (bug
+    report|feature request) for\\?\\n\\nblocksmith\\n"
+module:ui/button:
+  - "### Which module is this (bug
+    report|feature request) for\\?\\n\\nbutton\\n"
+module:ui/router:
+  - "### Which module is this (bug
+    report|feature request) for\\?\\n\\nrouter\\n"
+module:ui/zone/button:
+  - "### Which module is this (bug
+    report|feature request) for\\?\\n\\nzone/button\\n"

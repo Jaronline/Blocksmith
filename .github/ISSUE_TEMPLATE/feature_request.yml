@@ -10,6 +10,17 @@ body:
         Thank you for considering contributing to this project! Please provide a detailed description of the feature you would like to see implemented.
     validations:
       required: true
+  - type: dropdown
+    id: module
+    attributes:
+      label: Which module is this feature request for?
+      options:
+        - blocksmith
+        - button
+        - router
+        - zone/button
+    validations:
+      required: true
   - type: checkboxes
     id: new-issue
     attributes:

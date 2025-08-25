@@ -8,6 +8,17 @@ body:
     attributes:
       value: |
         Thank you for reporting a bug! Please fill out the following template to help us understand and resolve the issue.
+  - type: dropdown
+    id: module
+    attributes:
+      label: Which module is this bug report for?
+      options:
+        - blocksmith
+        - button
+        - router
+        - zone/button
+    validations:
+      required: true
   - type: checkboxes
     id: new-issue
     attributes:
