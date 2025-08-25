@@ -19,12 +19,12 @@ var initCmd = &cobra.Command{
 		var err error
 		var pkg *lib.Package
 
-		_ = utils.ReturnsError(&pkg, &err, lib.GetDefaultPackage) &&
+		_ = utils.DoesNotError(&pkg, &err, lib.GetDefaultPackage) &&
 			!withDefaults &&
-			utils.ReturnsError(&pkg.Name, &err, func() (string, error) {
+			utils.DoesNotError(&pkg.Name, &err, func() (string, error) {
 				return reader("Fill in the name of the modpack", pkg.Name)
 			}) &&
-			utils.ReturnsError(&pkg.Version, &err, func() (string, error) {
+			utils.DoesNotError(&pkg.Version, &err, func() (string, error) {
 				return reader("Fill in the version of the modpack", pkg.Version)
 			})
 

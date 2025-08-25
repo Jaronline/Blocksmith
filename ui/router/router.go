@@ -18,7 +18,7 @@ func NewRouter(initialRoute string, routes []Route) *Router {
 	}
 }
 
-func (r Router) GoTo(ctx Context, name string) tea.Model {
+func (r *Router) GoTo(ctx Context, name string) tea.Model {
 	var result *Route
 	var err error
 
